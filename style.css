@@ -1,0 +1,442 @@
+
+
+/* Options générales */
+/*********************/
+body
+{
+	font-family: verdana, sans-serif;
+	font-size: 11px;
+	background-color: #F5F5F5;
+}
+
+header
+{
+	background: #D8D8D8;
+	border-radius: 10px;
+	position: relative;
+}
+
+.logo
+{
+	z-index: 2;
+	position: relative;
+}
+
+
+.title_bar
+{
+	border: solid #C0C0C0 1px;
+	border-radius: 10px;
+	background: white;
+	padding: 10px 0px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	position: relative;
+}
+
+h1
+{
+	color: #184f88;
+	font-weight: normal;
+	padding-left: 15px;
+	font-size: 22px;
+	margin: 0px 20px 0px 0px;
+	display: inline-block;
+}
+
+.icone
+{
+	height: 20px;
+	width: 20px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+
+
+/* Menu */
+/********/
+section
+{
+	width: 80%;
+	/* border: solid black 1px; */
+	margin: auto;
+}
+
+.menu
+{
+	position: absolute;
+	right: 0px;
+	top: 0px;
+	padding-top: 0px;
+	margin-right: 15px;
+}
+
+.menu li
+{
+	display: inline-block;
+	padding: 5px 10px;
+	color: #3b73c4;
+}
+
+.menu a
+{
+	color: #3b73c4;
+	text-decoration: none;
+}
+
+.menu a:hover
+{
+	color: #3b73c4;
+	text-decoration: underline overline;
+}
+
+
+
+/* Barre de navigation */
+/***********************/
+nav
+{
+	width: 100%;
+	margin: auto;
+	text-align: center;
+	position: absolute;
+	bottom: 0;
+
+	
+}
+
+nav div
+{
+	display: inline-block;
+	width: 100px;
+	text-align: center;
+	padding: 10px;
+	border-radius: 10px 10px 0px 0px;
+	background: #F5F5F5;
+}
+
+nav div a
+{
+	text-decoration: none;
+	color: #184f88;
+	font-weight: bold;
+	font-size: 12px;
+	
+}
+
+.dateheure_activite
+{
+	margin-top: 5px;
+	padding-left: 15px;
+	color: #AFAFAF;
+}
+
+
+.commentaire_activite
+{
+	margin-top: 10px;
+	padding-left: 15px;
+}
+
+
+.btn_tools
+{
+	display: inline-block;
+	font-size: 12px;
+	text-align: left;
+	position: relative;
+	bottom: -5px;
+}
+
+
+.btn_nav
+{
+	display: inline-block;
+	font-size: 12px;
+	text-align: right;
+	position: absolute;
+	right: 0;
+	top: 25%;
+	margin-right: 20px;
+}
+
+.btn_nav a
+{
+	color: #2D8FF5;
+	text-decoration: none;
+	margin: 3px;
+}
+
+.btn_nav .inactive_link
+{
+	color: #AFAFAF;
+	text-decoration: none;
+	margin: 3px;
+}
+
+
+/* Filtre */
+/**********/
+.filtre
+{
+	border: solid #C0C0C0 1pt;
+	border-radius: 10px;
+	margin-bottom: 20px;
+}
+
+.tableau_filtre
+{
+	border-collapse: collapse;
+	/* border: solid black 1pt; */
+	margin: auto;
+	width: 70%;
+}
+
+.filtre_basic_tab, .filtre_avance_tab
+{
+	margin: auto;
+	/* border: 1pt solid blue; */
+}
+
+
+.filtre_libelle
+{
+	/* border: 1pt solid green; */
+}
+
+#btn_filtrer
+{
+	position: relative;
+	left: 47%;
+	/* margin-top: 10px;*/
+	margin-bottom: 10px;
+	width: 6%
+	
+}
+
+
+/* Tableau d'activités */
+/***********************/
+.tableau table
+{
+	border-collapse: collapse;
+	margin: auto;
+	background-color: white;
+	width: 100%;
+	
+}
+
+.tab_li_paire
+{
+	background-color: #F5F5F5;
+}
+
+.tableau tr:hover
+{
+	background-color: #E3F4FF;
+}
+
+.tableau thead
+{
+	background-color: #E7F2FF;
+
+}
+
+
+.tableau td, .tableau th
+{
+	border: solid #C0C0C0 1pt;
+	padding: 5px 10px;
+	text-align: center;
+
+}
+
+.tableau td a
+{
+	color: #3b73c4;
+}
+
+
+/* Pages du tableau */
+/********************/
+.page_nb, .current_page_nb
+{
+	display: inline-block;
+	width: 20px;
+	/* height: 50px; */
+	font-size: 12px;
+	text-align: center;
+	/* padding: 1px; */
+	margin-top: 10px;
+	line-height: 20px;
+	vertical-align: middle;
+	border: solid black 1px;
+}
+
+.current_page_nb
+{
+	font-weight: bold;
+	color: white;
+	background: #3b73c4;
+}
+
+
+/* Tableau des rapports d'activités */
+/************************************/
+.tableau_rapport table
+{
+	border-collapse: collapse;
+	margin: auto;
+	margin-top: 50px;
+	background-color: white;
+	width: 40%;
+	
+}
+
+.tableau_rapport tr:hover
+{
+	background-color: #E3F4FF;
+}
+
+.tableau_rapport td
+{
+	border: solid #C0C0C0 1pt;
+	padding: 10px 10px;
+	text-align: left;
+}
+
+.filtre div
+{
+	display: inline-block;
+	margin: 5px;
+	padding-left: 5px;
+	/* border: 1pt solid black; */
+}
+
+
+
+/* Tableau de stats d'une activité */
+/***********************************/
+.stats table
+{
+	border-collapse: collapse;
+	margin: auto;
+	background-color: white;
+	width: 100%;
+}
+
+.stats thead
+{
+	background-color: #E7F2FF;
+
+}
+
+.stats td, .stats th
+{
+	border: solid #C0C0C0 1pt;
+	padding: 5px 10px;
+	text-align: center;
+
+}
+
+
+/* Carte */
+/*********/
+#carte
+{
+	margin-top: 20px;
+	height: 600px;
+	border: solid #C0C0C0 1pt;
+	border-radius: 5px;
+}
+
+
+/* Courbes */
+/***********/
+#courbes
+{
+	width: 100%;
+	height: 200px;
+	border: solid #C0C0C0 1pt;
+	border-radius: 5px;
+	margin-top: 20px;
+}
+
+
+/* Upload */
+/**********/
+.formulaire_upload table
+{
+	margin: auto;
+	margin-top: 40px;
+}
+
+.formulaire_upload tr
+{
+	height: 40px;
+}
+
+
+
+.formulaire_upload table .btn_upload
+{
+	text-align: center;
+}
+
+
+/* login */
+/*********/
+.connexion
+{
+	border: 1pt solid #C0C0C0;
+	width: 400px;
+	margin: auto;
+	border-radius: 10px;
+	margin-top: 20px;
+}
+
+
+.champ_connexion
+{
+	padding-left: 20%;
+	width: 60%;
+	/* margin-left: 30px; */
+	margin-top: 30px;
+	/* border: 1pt solid black; */	
+}
+
+
+.champ_connexion input
+{
+	width: 100%;
+}
+
+
+
+.btn_connexion
+{
+	margin-top: 20px;
+	margin-bottom: 10px;
+	width: 20%;
+	position: relative;
+	left: 40%;
+}
+
+.erreur_connexion
+{
+	background-color: rgba(255, 76, 76, 0.56);
+	padding: 10px;
+	margin-bottom: 10px;
+}
+
+
+/* Pied de page */
+/****************/
+footer
+{
+	margin-top: 10px;
+	text-align: center;
+	font-size: 10px;
+	color: #777777;
+}
